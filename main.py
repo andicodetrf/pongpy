@@ -1,26 +1,39 @@
-from turtle import Screen
+from turtle import Screen, Turtle
 import time
 from scoreboard import ScoreBoard
 from paddle import Paddle
 from ball import Ball
 
+# screen setup
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.title("Pong")
 screen.tracer(0)
 
+net = Turtle("square")
+net.shapesize(stretch_wid=30, stretch_len=0.1)
+# net.shapesize(stretch_wid=1, stretch_len=0.5)
+
+# instantiation
 scoreboard = ScoreBoard()
 ball = Ball()
-
 left_paddle = Paddle((-350, 0))
 right_paddle = Paddle((350, 0))
 
+
+def exit_game():
+	screen.bye()
+
+
+# keystrokes
 screen.listen()
 screen.onkey(right_paddle.up, "Up")
 screen.onkey(right_paddle.down, "Down")
-screen.onkey(left_paddle.up, "e")
-screen.onkey(left_paddle.down, "s")
+screen.onkey(left_paddle.up, "a")
+screen.onkey(left_paddle.down, "z")
+screen.onkey(exit_game, "q")
 
+# game flow
 game_is_on = True
 r_bx = False
 l_bx = False
@@ -63,14 +76,3 @@ while game_is_on:
 		scoreboard.r_point()
 
 
-
-
-
-
-
-
-
-
-
-
-screen.exitonclick()

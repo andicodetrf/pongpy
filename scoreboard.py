@@ -14,7 +14,7 @@ class ScoreBoard(Turtle):
 	def update_score(self):
 		self.clear()
 		self.goto(-300, 270)
-		self.write("'e' = up, \n's' = down", align="center", font=("Courier", 10, "normal"))
+		self.write("'a' = up, \n'z' = down", align="center", font=("Courier", 10, "normal"))
 		self.goto(300, 270)
 		self.write("up-arrow = up, \ndown-arrow = down", align="center", font=("Courier", 10, "normal"))
 		self.goto(-100, 250)
