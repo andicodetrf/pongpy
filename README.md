@@ -5,16 +5,15 @@ To know more about the game, refer to: [Wikipedia](https://en.wikipedia.org/wiki
 
 ![wiki-pong-gif](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pong_Game_Test2.gif/220px-Pong_Game_Test2.gif)
 
-#### Players
-Right Player
-<br>	
-  - up-arrow to move paddle upwards
-  - down-arrow to move paddle downwards
+#### Players:
+ - Right Player	 
+   - up-arrow to move paddle upwards
+   - down-arrow to move paddle downwards
 
-Left Player
-<br>
-  - 'a' to move paddle upwards
-  - 'z' to move paddle downwards
+
+ - Left Player
+   - 'a' to move paddle upwards
+   - 'z' to move paddle downwards
 
 #### Keystroke Behaviour:
   - registers continuous keypress
@@ -28,5 +27,5 @@ Left Player
   - Ball speed increases at every paddle hit
   - Ball speed resets once a paddle misses
 
-#### To run the game
+#### Initiate Game:
   - run main.py
