@@ -3,7 +3,7 @@ This is a 2-player game on the same machine.
 
 To know more about the game, refer to: [Wikipedia](https://en.wikipedia.org/wiki/Pong)
 
-![wiki-pong-gif](https://en.wikipedia.org/wiki/Pong#/media/File:Pong_Game_Test2.gif)
+![wiki-pong-gif](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pong_Game_Test2.gif/220px-Pong_Game_Test2.gif)
 
 #### Players
 Right Player
