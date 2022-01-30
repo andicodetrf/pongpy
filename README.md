@@ -1,7 +1,7 @@
 # The Pong Game
-This is a 2-player game on the same machine.
+This is a simple 2-player game that can only be played on the same machine.
 
-To know more about the game, refer to: [Wikipedia](https://en.wikipedia.org/wiki/Pong)
+To find out more on game rules, refer to: [Wikipedia](https://en.wikipedia.org/wiki/Pong)
 
 ![wiki-pong-gif](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pong_Game_Test2.gif/220px-Pong_Game_Test2.gif)
 
@@ -18,7 +18,7 @@ To know more about the game, refer to: [Wikipedia](https://en.wikipedia.org/wiki
 #### Keystroke Behaviour:
   - registers continuous keypress
   - registers holding down of key
-  - press 'q' to exit & close window
+  - press 'q' to exit
 
 #### Limitation: 
   - Game only recognizes one keypress at a time
